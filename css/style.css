@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white; }
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden; }
+  .container__form {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+  .container__log {
+    width: 50%;
+    height: 100%; }
+  .container .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 480px;
+    width: 350px; }
+    .container .form__description {
+      text-align: center; }
+    .container .form__title {
+      color: black;
+      text-transform: uppercase; }
+    .container .form__description {
+      color: #333; }
+    .container .form .input__box {
+      max-width: 380px;
+      width: 100%;
+      background-color: #f0f0f0;
+      margin: 10px 0;
+      height: 55px;
+      border-radius: 55px;
+      display: grid;
+      grid-template-columns: 15% 85%;
+      padding: 0 0.4rem;
+      position: relative; }
+      .container .form .input__box input {
+        background: none;
+        outline: none;
+        border: none;
+        line-height: 1;
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #333; }
+      .container .form .input__box i {
+        text-align: center;
+        line-height: 55px;
+        color: #acacac;
+        transition: 0.5s;
+        font-size: 1.1rem; }
+    .container .form__btn {
+      width: 150px;
+      background-color: #5995fd;
+      border: none;
+      outline: none;
+      height: 49px;
+      border-radius: 49px;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin: 10px 0;
+      cursor: pointer;
+      transition: 0.5s; }
+  .container ::before {
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 2000px;
+    height: 2000px;
+    border-radius: 50%;
+    background-color: #5995fd; }
